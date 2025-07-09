@@ -16,6 +16,9 @@ public class SudokuSector extends JPanel {
         this.setBorder(new LineBorder(Color.black, 2, true));
         this.setVisible(true);
         textFields.forEach(this::add);
+        this.setBackground(Color.BLACK);
+        this.setBorder(new LineBorder(Color.WHITE, 2, true));
+
     }
 
 }

@@ -9,5 +9,7 @@ public class MainPanel extends JPanel {
 
         this.setSize(dimension);
         this.setPreferredSize(dimension);
+        this.setBackground(Color.BLACK);
+
     }
 }
