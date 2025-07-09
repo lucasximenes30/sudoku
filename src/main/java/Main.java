@@ -167,17 +167,16 @@ public class Main {
         }
 
         if (board.gameIsFinished()){
-            System.out.println("Parabéns você concluiu o jogo");
+            System.out.println("Parabéns você concluiu o jogo!");
             showCurrentGame();
             board = null;
         } else if (board.hasErrors()) {
-            System.out.println("Seu jogo conté, erros, verifique seu board e ajuste-o");
+            System.out.println("Seu jogo conté, erros, verifique seu board e ajuste-o!");
         } else {
-            System.out.println("Você ainda precisa preenhcer algum espaço");
+            System.out.println("Você ainda precisa preenhcer algum espaço!");
         }
     }
-
-
+    
     private static int runUntilGetValidNumber(final int min, final int max){
         var current = scanner.nextInt();
         while (current < min || current > max){
